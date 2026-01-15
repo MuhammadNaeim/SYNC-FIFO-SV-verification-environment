@@ -1,5 +1,7 @@
 # 🗂️ Synchronous FIFO Verification Project
 
+![FIFO Verification Environment](fifo_verification_diagram.png)
+
 ## 📖 Overview
 This project implements and verifies a **Synchronous FIFO** design in SystemVerilog.  
 The verification environment is built using **transaction classes, functional coverage, scoreboards, and assertions** to ensure correctness under randomized stimulus and corner-case scenarios.
