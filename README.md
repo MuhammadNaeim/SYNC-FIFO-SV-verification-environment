@@ -92,8 +92,12 @@ The work includes:
 ├── rtl/
     ├── FIFO.sv
 ├── tb/   
+│   ├── top.sv  
+│   ├── tb.sv  
 │   ├── shared_pkg.sv  
+│   ├── fifo_if.sv  
 │   ├── transaction_pkg.sv
+│   ├── monitor_pkg.sv
 │   ├── coverage_pkg.sv
 │   ├── scoreboard_pkg.sv
 ├── docs/
