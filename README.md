@@ -100,8 +100,7 @@ The work includes:
 │   ├── monitor_pkg.sv
 │   ├── coverage_pkg.sv
 │   ├── scoreboard_pkg.sv
-├── docs/
-    ├── report.pdf
+├── report.pdf
 └── README.md
 ```
 
