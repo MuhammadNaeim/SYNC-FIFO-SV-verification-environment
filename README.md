@@ -1,8 +1,6 @@
 # 🗂️ Synchronous FIFO Verification Project
 
-<p align="center">
-  <img src="docs/fifo_verification_diagram.png" alt="FIFO Verification Environment" width="600"/>
-</p>
+![FIFO Verification Environment](fifo_verification_diagram.png)
 
 ## 📖 Overview
 This project implements and verifies a **Synchronous FIFO** design in SystemVerilog.  
