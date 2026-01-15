@@ -46,7 +46,7 @@ The work includes:
 
 2. **Transaction Class (`FIFO_transaction`)**  
    - Holds FIFO inputs/outputs  
-   - Randomized stimulus with constraints on `wr_en` and `rd_en`  
+   - Randomized stimulus with constraints on `wr_en` and `rd_en`
 
 3. **Coverage Class (`FIFO_coverage`)**  
    - Cross coverage between `wr_en`, `rd_en`, and FIFO status flags  
@@ -89,15 +89,16 @@ The work includes:
 
 ## 📂 Repository Structure
 ```
-├── rtl/                # FIFO RTL design with assertions
-├── tb/                 # Testbench files
-│   ├── shared_pkg.sv   # Shared package with counters and flags
+├── rtl/
+    ├── FIFO.sv
+├── tb/   
+│   ├── shared_pkg.sv  
 │   ├── transaction_pkg.sv
 │   ├── coverage_pkg.sv
 │   ├── scoreboard_pkg.sv
-├── sim/                # Simulation scripts (.do files)
-├── docs/               # Project report (PDF, bug logs)
-└── README.md           # This file
+├── docs/
+    ├── report.pdf
+└── README.md
 ```
 
 ---
